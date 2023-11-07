@@ -50,3 +50,23 @@ const g = 3, h = 'hello';
 console.log(g != 2); 
 console.log(h != 'Hello'); 
 
+const r = true, s = false;
+const t = 4;
+
+// logical AND
+console.log(r && r);
+console.log(r && s);
+console.log((t > 2) && (t < 2)); 
+
+const m = true, n = false, o = 4;
+
+// logical OR
+console.log(m || n); 
+console.log(n || n); 
+console.log((o>2) || (o<2)); 
+
+const i = true, j = false;
+
+// logical NOT
+console.log(!i); 
+console.log(!j); 
