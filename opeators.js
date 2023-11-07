@@ -36,3 +36,17 @@ console.log('hello' + 'world');
 let c = 'JavaScript';
 c += ' tutorial'; 
 console.log(c);
+
+const d = 5, e = 2, f = 'hello';
+
+// equal to operator
+console.log(d == 5);     
+console.log(e == '2'); 
+console.log(f == 'Hello');
+
+const g = 3, h = 'hello';
+
+// not equal operator
+console.log(g != 2); 
+console.log(h != 'Hello'); 
+
