@@ -25,15 +25,20 @@ for (let i = 1; i <= j; i++) {
 
 console.log('sum:', sum);
 
-// also written like this
-let tot = 0;
-const o = 100;
 
-// looping from i = n to 1
-// in each iteration, i is decreased by 1
-for(let i = o; i >= 1; i-- ) {
-    // adding i to sum in each iteration
-    tot += i; // tot = tot + i
+let d = 1;
+const p = 5;
+
+do {
+    console.log(d);
+    d++;
+} while(d <= p);
+
+// program to print the value of i
+for (let r = 1; r <= 5; r++) {
+    // break condition     
+    if (r == 3) {
+        break;
+    }
+    console.log(r);
 }
-
-console.log('sum:',sum);
